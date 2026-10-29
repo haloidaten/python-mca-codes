@@ -400,21 +400,4 @@ This file contains four exercises:
 
 ---
 
-## Overall Learning Outcomes
-After completing these programs, students should be able to:
-
-- Write and execute Python programs.
-- Accept user input and display results.
-- Use conditional statements and loops.
-- Perform mathematical calculations.
-- Manipulate strings and extract information.
-- Create, access, compare, and filter lists.
-- Apply list comprehensions.
-- Store and count information using dictionaries.
-- Use built-in functions such as `len()`, `sum()`, `max()`, `ord()`, and `all()`.
-- Create number and star patterns with nested loops.
-- Use lambda functions for simple calculations.
-- Develop problem-solving skills using Python.
-
-## Conclusion
-These 26 programs provide practical experience with fundamental Python programming concepts. They cover string operations, mathematical calculations, conditional statements, loops, collections, list comprehensions, dictionaries, pattern printing, and lambda functions. Practising these programs helps build a foundation for more advanced programming and problem-solving.
+Practising these programs helps build a foundation for more advanced programming and problem-solving.
