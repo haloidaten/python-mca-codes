@@ -1,0 +1,4 @@
+hello this is reading from a text file
+vdgaqd
+sdwefer
+frefgerfger
