@@ -1,129 +1,184 @@
-🐍 Python MCA Codes
+🐍 Python MCA Practicals
 
-A collection of Python programming practicals and lab exercises for MCA students. This repository contains 26 Python programs covering fundamental Python concepts, problem-solving techniques, and commonly used built-in functions.
+<p align="center">
+A collection of Python programming practicals for MCA students.
+<br />
+<b>Learn • Practice • Experiment • Build</b>
+</p>
 
-📚 About the Repository
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Programs-33-success" />
+<img src="https://img.shields.io/badge/Level-Beginner%20to%20Intermediate-orange" />
+<img src="https://img.shields.io/badge/Purpose-Educational-purple" />
+</p>
 
-This repository is created for learning and practising Python programming. It includes beginner-friendly programs with a focus on understanding Python syntax, logic, data structures, and programming fundamentals.
+📖 Introduction
 
+Welcome to Python MCA Practicals!
+
+This repository is a collection of Python programs developed as part of MCA programming practicals. It covers essential Python concepts through simple, practical examples that help students understand programming logic and develop problem-solving skills.
+
+From basic operations and conditional statements to object-oriented programming and file handling, these programs provide hands-on experience with different features of Python.
+
+Whether you're preparing for lab examinations, revising programming concepts, or learning Python from scratch, this repository can serve as a useful reference.
+
+📑 Table of Contents
+Introduction
 Topics Covered
-Python basics and user input
-Conditional statements (if, elif, else)
-Loops (for and while)
-String manipulation and operations
-Lists and list comprehensions
-Dictionaries and frequency counting
-Mathematical operations
-Lambda functions
-Pattern printing
-Number series and sequences
-📂 Repository Structure
-text
-python-mca-codes/
-│
-├── prg1.py
-├── prg2.py
-├── prg3.py
-├── prg4.py
-├── prg5.py
-├── prg6.py
-├── prg7.py
-├── prg8.py
-├── prg9.py
-├── prg10.py
-├── ...
-├── prg26.py
-│
-├── a.txt
-├── d.txt
-├── s.csv
-├── s.txt
-│
-└── README.md
+Program Index
+Getting Started
+Requirements
+How to Run
+Learning Objectives
+Contributing
+Author
+🧠 Topics Covered
+Topic	Description
+Python Fundamentals	Variables, input, output and operators
+Conditional Statements	Decision-making using conditions
+Loops	Iteration using for and while
+Strings	String manipulation and built-in methods
+Lists	List operations and comprehensions
+Dictionaries	Word and character frequency
+Functions	Reusable code and lambda expressions
+Mathematics	Factorials, Fibonacci and numerical problems
+Pattern Printing	Star and number patterns
+Object-Oriented Programming	Classes, objects and methods
+Operator Overloading	Customizing operators in classes
+File Handling	Reading and writing text files
+CSV Handling	Reading CSV data using Python
+📂 Program Index
 
-💻 Programs Included
-No.	Program	Concepts
-01	Display Leap Years	DateTime, Loops
-02	Replace Repeated First Characters	Strings
-03	Swap First and Last Characters	String Slicing
-04	Calculate Area of a Circle	Math Module
-05	Find Largest of Three Numbers	Conditional Statements
-06	Find File Extension	String Operations
-07	Calculate Repeated-Number Sum	String Manipulation
-08	List Comprehension Exercises	Lists, Comprehensions
-09	Count Word Occurrences	Dictionaries
-10	Replace Numbers Greater Than 100	Lists, Conditions
-11	Count Letter 'a' in Names	String Operations
-12	Compare Two Lists	Lists, Conditions
-13	Display First and Last Colours	Lists
-14	Find Colours Present Only in First List	List Comprehension
-15	Remove Even Numbers	Lists, Filtering
-16	Calculate Factorial	Loops, Mathematics
-17	Generate Fibonacci Series	Loops, Number Series
-18	Calculate Running Sum	Lists, Accumulators
-19	Find Four-Digit Perfect Squares with Even Digits	Mathematics, Loops
-20	Count Character Frequencies	Dictionaries, Strings
-21	Add 'ing' or 'ly' to a String	String Operations
-22	Find the Longest Word	Strings, Built-in Functions
-23	Print Multiplication Pattern	Nested Loops
-24	Print Star Diamond Pattern	Pattern Printing
-25	Find Factors of a Number	Loops, Mathematics
-26	Calculate Areas Using Lambda Functions	Lambda Functions
-⚙️ Requirements
+The repository contains 33 Python programs organized into the following learning areas.
 
-Before running the programs, make sure you have:
-
-Python 3.x installed.
-A code editor such as VS Code, PyCharm, or IDLE.
-A terminal or command prompt.
+1. Python Fundamentals & Basic Operations
+Program	Description	Source
+01	Display leap years	prg1.py
+04	Calculate the area of a circle	prg4.py
+05	Find the largest of three numbers	prg5.py
+06	Extract a file extension	prg6.py
+07	Calculate repeated-number sums	prg7.py
+2. Strings & List Operations
+Program	Description	Source
+02	Replace repeated first characters	prg2.py
+03	Swap the first and last characters	prg3.py
+08	Perform list comprehension exercises	prg8.py
+10	Replace numbers greater than 100	prg10.py
+11	Count occurrences of the letter 'a'	prg11.py
+12	Compare two lists	prg12.py
+13	Display the first and last colours	prg13.py
+14	Find colours unique to the first list	prg14.py
+15	Remove even numbers from a list	prg15.py
+21	Append 'ing' or 'ly' to a string	prg21.py
+22	Find the longest word	prg22.py
+3. Loops & Mathematical Problems
+Program	Description	Source
+16	Calculate the factorial of a number	prg16.py
+17	Generate the Fibonacci series	prg17.py
+18	Calculate the running sum of a list	prg18.py
+19	Find four-digit perfect squares with even digits	prg19.py
+25	Find the factors of a number	prg25.py
+26	Calculate areas using lambda functions	prg26.py
+4. Dictionaries & Data Processing
+Program	Description	Source
+09	Count word occurrences using dictionaries	prg9.py
+20	Calculate character frequencies	prg20.py
+5. Pattern Printing
+Program	Description	Source
+23	Print a multiplication number pattern	prg23.py
+24	Print a star pattern	prg24.py
+6. Object-Oriented Programming
+Program	Description	Source
+28	Rectangle class with area, perimeter and comparison	prg28.py
+29	Bank account class with deposit and withdrawal	prg29.py
+30	Compare rectangle objects using operator overloading	prg30.py
+31	Add time objects using operator overloading	prg31.py
+7. File Handling & CSV Operations
+Program	Description	Source
+32	Read and display file contents	prg32.py
+33	Copy alternate lines from one file to another	prg33.py
+34	Read and display CSV file contents	prg34.py
 🚀 Getting Started
-1. Clone the Repository
+
+Follow these steps to run the programs on your computer.
+
+Prerequisites
+
+Make sure you have the following installed:
+
+Python 3.x
+A code editor (VS Code, PyCharm, or IDLE)
+Git (optional, for cloning the repository)
+Clone the Repository
+
+Open your terminal and execute:
+
 bash
 git clone https://github.com/haloidaten/python-mca-codes.git
 
-2. Navigate to the Project Directory
+Navigate to the Project
 bash
 cd python-mca-codes
 
-3. Run a Python Program
+Run a Program
 
-For example, to execute the first program:
+Execute any Python file using:
 
 bash
 python prg1.py
 
 
-Alternatively, on systems using Python 3:
+On Linux or macOS, you may need:
 
 bash
 python3 prg1.py
 
 
-To run another practical, replace prg1.py with the desired filename.
+Replace prg1.py with the filename of the practical you want to execute.
+
+⚙️ Requirements
+
+Most programs use Python's built-in features and standard library, so no external packages are required.
+
+Some programs work with supporting files such as:
+
+a.txt
+s.txt
+d.txt
+s.csv
+
+Make sure these files are available in the expected location before running the corresponding practical.
+
+Note: Programs 32–34 currently contain hardcoded Windows file paths. Update those paths to match your computer before executing them.
 
 🎯 Learning Objectives
 
-By practising these programs, you can:
+By completing these practicals, you will gain experience in:
 
-Understand the fundamentals of Python programming.
-Develop logical and computational thinking.
-Work with different Python data structures.
-Improve problem-solving skills.
-Understand loops, conditions, and functions.
-Gain practical experience with Python programming.
-🤝 Contributions
+Understanding Python syntax and programming fundamentals.
+Applying conditional statements and loops.
+Manipulating strings and collections.
+Working with lists and dictionaries.
+Solving mathematical problems using Python.
+Creating and using functions.
+Understanding classes, objects and inheritance-related concepts.
+Implementing operator overloading.
+Reading and writing files.
+Processing structured data using CSV files.
+🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome!
+Suggestions and improvements are always welcome!
 
-If you find an issue or want to improve an existing program:
+If you want to contribute:
 
 Fork this repository.
 Create a new branch.
 Make your changes.
-Submit a pull request.
-📄 License
+Commit your changes.
+Open a Pull Request.
 
-This repository is intended for educational and learning purposes.
+You can also report bugs or suggest new practical programs through GitHub Issues.
 
 👨‍💻 Author
 
@@ -131,10 +186,19 @@ haloidaten
 
 GitHub: @haloidaten
 
-⭐ If you find this repository helpful, consider giving it a star!
+Repository: python-mca-codes
 
+⭐ Support
+
+If you find this repository useful for learning Python or preparing for MCA practical examinations, consider giving it a ⭐ on GitHub.
+
+Your support is appreciated!
+
+<p align="center">
+<b>Made with ❤️ for Python learners.</b>
+<br />
 Happy Coding! 🐍
-
+</p>
 ---
 
 Practising these programs helps build a foundation for more advanced programming and problem-solving.
